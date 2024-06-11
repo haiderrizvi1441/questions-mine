@@ -1,4 +1,4 @@
-package interviewquestions.Java_Collections.ArrayClass;
+package Java_Collections.ArrayClass;
 
 import java.util.Arrays;
 
