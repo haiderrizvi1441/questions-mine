@@ -1,4 +1,4 @@
-package interviewquestions.Algorithms.Sorting;
+package Algorithms.Sorting;
 
 public class SortingBasics {
     

@@ -1,31 +1,31 @@
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
 
 /**
  * Innertestt
  */
-interface Innertestt {
 
-	void abstractTest(int x);
-
-	default void normalTest(){
-		System.out.println("This is Default");
-	}
-}
 public class testt { 
 	
 	
 	public static void main(String[] args){
 		
-		List<Integer> al = Arrays.asList(1,4,5,6,3,3,1,2,2,1);
-		
-		al = al.stream().distinct().sorted(Comparator.reverseOrder()).toList();
-		System.out.println(al);
+		String a = "rami";
+		String b = "singh";
+		String c= a+b;
+		System.out.println(c);
+		StringBuilder sb = new StringBuilder();
+		for(int i=0;i<a.length();i++){
+			sb.append(a.charAt(i));
+		}
+		System.out.println(sb.toString());
 
-		Innertestt innertestt = (int x)->System.out.println(2*x);
+		List<Integer> list = Arrays.asList(0,1,3,5,7,83,6);
+		List<Integer> mylist = new ArrayList<>();
+		System.out.println(mylist.size());
 		
-
+		
 
 
 	}	

@@ -11,7 +11,12 @@ public class ArrList24 {
                 result = word;
             }
         }
-        
+        int[] arr = {1,2,3,4};
+        int i=5;
+        int j = 2;
+        int x = 0;
+        x = (i+j)%2==0 ? 1 :2;
+        System.out.println(x);
 
         return result;
     }
